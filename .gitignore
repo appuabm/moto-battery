@@ -1,0 +1,19 @@
+# Build output and IDE files
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+*.apk
+*.aab
+
+# Signing keys never belong in the repository
+*.jks
+*.keystore
+keystore.properties
+
+# Optional brand assets: Motorola's fonts and logo stay local and are never published
+app/src/main/res/font/moto_brand_*.ttf
+app/src/main/res/drawable/moto_logo.xml
+app/src/main/res/raw/keep_brand.xml

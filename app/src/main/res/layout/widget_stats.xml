@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/w_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="8dp">
+
+    <LinearLayout style="@style/WidgetStat">
+        <TextView android:id="@+id/w_v1" style="@style/WidgetStatValue" />
+        <TextView style="@style/WidgetStatLabel" android:text="@string/widget_ma" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/WidgetStat">
+        <TextView android:id="@+id/w_v2" style="@style/WidgetStatValue" />
+        <TextView style="@style/WidgetStatLabel" android:text="@string/widget_temp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/WidgetStat">
+        <TextView android:id="@+id/w_v3" style="@style/WidgetStatValue" />
+        <TextView style="@style/WidgetStatLabel" android:text="@string/widget_power" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/WidgetStat">
+        <TextView android:id="@+id/w_v4" style="@style/WidgetStatValue" />
+        <TextView android:id="@+id/w_l4" style="@style/WidgetStatLabel" />
+    </LinearLayout>
+</LinearLayout>

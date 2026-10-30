@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Moto Battery</string>
+    <string name="widget_description">Battery level, current and temperature</string>
+    <string name="tile_label">Battery</string>
+    <string name="widget_ring_name">Battery ring</string>
+    <string name="widget_ring_desc">Battery level ring</string>
+    <string name="widget_graph_name">Battery graph</string>
+    <string name="widget_graph_desc">Battery level over the last 24 hours</string>
+    <string name="widget_stats_name">Battery stats</string>
+    <string name="widget_stats_desc">Current, temperature, power and time left</string>
+    <string name="widget_last_24h">Last 24 hours</string>
+    <string name="widget_ma">mA</string>
+    <string name="widget_temp">Temp</string>
+    <string name="widget_power">Power</string>
+</resources>

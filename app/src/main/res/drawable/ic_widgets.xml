@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android's "widgets" glyph (three squares and a diamond) redrawn as a 1.5 outline to match the
+     Phosphor regular icons used elsewhere. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M5.25,3.75h3.5a1.5,1.5 0,0 1,1.5 1.5v3.5a1.5,1.5 0,0 1,-1.5 1.5h-3.5a1.5,1.5 0,0 1,-1.5 -1.5v-3.5a1.5,1.5 0,0 1,1.5 -1.5z" />
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M5.25,13.75h3.5a1.5,1.5 0,0 1,1.5 1.5v3.5a1.5,1.5 0,0 1,-1.5 1.5h-3.5a1.5,1.5 0,0 1,-1.5 -1.5v-3.5a1.5,1.5 0,0 1,1.5 -1.5z" />
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M15.25,13.75h3.5a1.5,1.5 0,0 1,1.5 1.5v3.5a1.5,1.5 0,0 1,-1.5 1.5h-3.5a1.5,1.5 0,0 1,-1.5 -1.5v-3.5a1.5,1.5 0,0 1,1.5 -1.5z" />
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M17,2.9L21.1,7L17,11.1L12.9,7Z" />
+</vector>

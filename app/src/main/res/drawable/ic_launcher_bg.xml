@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon background: muted Moto navy with a soft diagonal gradient, like Motorola's own app icons. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="315"
+        android:centerColor="#FF15296C"
+        android:endColor="#FF0E1E52"
+        android:startColor="#FF1B3280"
+        android:type="linear" />
+</shape>

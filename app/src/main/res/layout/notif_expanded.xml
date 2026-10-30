@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Live status notification, expanded: level header, progress bar, four readings and a summary line. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/notif_collapsed" />
+
+    <ProgressBar
+        android:id="@+id/n_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="12dp"
+        android:max="100"
+        android:progressDrawable="@drawable/widget_progress" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/NotifStat">
+            <TextView android:id="@+id/n_current" style="@style/NotifStatValue" />
+            <TextView style="@style/NotifStatLabel" android:text="Current" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/NotifStat">
+            <TextView android:id="@+id/n_power" style="@style/NotifStatValue" />
+            <TextView style="@style/NotifStatLabel" android:text="Power" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/NotifStat">
+            <TextView android:id="@+id/n_temp" style="@style/NotifStatValue" />
+            <TextView style="@style/NotifStatLabel" android:text="Temp" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/NotifStat">
+            <TextView android:id="@+id/n_voltage" style="@style/NotifStatValue" />
+            <TextView style="@style/NotifStatLabel" android:text="Voltage" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/n_summary"
+        style="@style/TextAppearance.Compat.Notification.Line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="2" />
+</LinearLayout>
