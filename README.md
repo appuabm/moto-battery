@@ -111,7 +111,6 @@ Bug reports and ideas are welcome as issues.
 
 - Icons: [Phosphor Icons](https://phosphoricons.com) (MIT licence) and the Material "widgets" glyph
   (Apache 2.0).
-- Navigation icons by Terra13.
 - Built with Kotlin and Jetpack Compose.
 
 ## Licence
